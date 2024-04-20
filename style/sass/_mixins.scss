@@ -1,0 +1,16 @@
+@import "variables";
+
+@mixin commentBox{
+    background-color: $primary__Color;
+    border-radius: 1rem;
+    padding: 2.5rem 1rem;  
+    color: #fafafa;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    height: fit-content;
+}
+
+
